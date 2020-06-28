@@ -1,0 +1,6 @@
+include flaskr/migrations/clean_schema.sql
+include flaskr/migrations/directors_schema.sql
+include flaskr/migrations/disable_foreign_key_check.sql
+include flaskr/migrations/enable_foreign_key_check.sql
+include flaskr/migrations/shows_schema.sql
+global-exclude *.pyc
