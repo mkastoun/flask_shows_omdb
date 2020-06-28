@@ -18,6 +18,7 @@ these are the shows type that this project can handle
     # set the enviroment https://flask.palletsprojects.com/en/1.1.x/tutorial/factory/
     # Create a database
     # Go to flask/db.py and change mariadb connect params
+    # Go to __init__.py and set your db credentials in this variable SQLALCHEMY_DATABASE_URI
     # run init-db to fresh migrate the schema
     - flask init-db
     # set FLASK_APP=flaskr, set FLASK_ENV=development, set FLASK_DEBUG=1

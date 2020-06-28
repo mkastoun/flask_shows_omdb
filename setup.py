@@ -15,5 +15,6 @@ setup(
         'reportlab>=3.5.44',
         'Flask-SQLAlchemy>=2.4.3',
         'Flask-DebugToolbar >=0.11.0',
+        'xlrd>=1.2.0'
     ],
 )
